@@ -1,7 +1,7 @@
 # Text_To_Voice
 A Simple Website for Text to Voice conversion using web Speech API and javascript
 
-<img>"https://github.com/ANIRUDH-VADERA/Text_To_Voice/blob/main/images/speech.png"</img>
+<img src = "https://github.com/ANIRUDH-VADERA/Text_To_Voice/blob/main/images/speech.png"></img>
 
 **How to Use**
   1. Simply Type the words you want to convert
