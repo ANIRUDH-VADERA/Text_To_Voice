@@ -1,0 +1,32 @@
+.form-group input {
+  width: 100%;
+  margin-top: 10px;
+}
+.form-group label {
+  margin-top: 20px;
+}
+
+#rate-value {
+  transform: translateX(287px);
+}
+
+#pitch-value {
+  transform: translateX(287px);
+}
+
+button {
+  transform: translateY(45px);
+}
+
+select {
+  transform: translateY(25px);
+  padding: 10px 36px 10px 12px;
+}
+
+.h5 {
+  transform: translateY(15px);
+}
+
+.row {
+  height: 500px;
+}

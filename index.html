@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Type and Speak</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--BootStrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      body {
+        background: #141414;
+      }
+    </style>
+  </head>
+  <body class="text-white">
+    <div class="container text-center">
+      <img src="./images/speech.png" class="mb-5" alt="" />
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form action="">
+            <div class="form-group">
+              <textarea
+                name=""
+                id="textInput"
+                class="form-control form-control-lg"
+                placeholder="Type Anything"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="rate"><h5>Rate</h5></label>
+              <div class="badge bg-primary float-right" id="rate-value">1</div>
+              <input
+                type="range"
+                class="custom-range"
+                id="rate"
+                min="0.5"
+                max="2"
+                value="1"
+                step="0.1"
+              />
+            </div>
+            <div class="form-group">
+              <label for="pitch"><h5>Pitch</h5></label>
+              <div class="badge bg-primary float-right" id="pitch-value">1</div>
+              <input
+                type="range"
+                class="custom-range"
+                id="pitch"
+                min="0"
+                max="2"
+                value="1"
+                step="0.1"
+              />
+            </div>
+            <div class="form-group">
+              <h5 class="h5 float-start">Select Your prefered Language</h5>
+              <select
+                name="choise-language"
+                id="voice-select"
+                class="form-select form-control-lg"
+                aria-label="Floating label select example"
+              ></select>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-light btn-lg btn-block">Speak It</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js" async defer></script>
+  </body>
+</html>
